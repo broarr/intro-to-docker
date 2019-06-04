@@ -1,0 +1,17 @@
+{
+  "name": "intro-workshop",
+  "version": "1.0.0",
+  "description": "Source for Intro to Docker presentation",
+  "main": "deck.mdx",
+  "dependencies": {},
+  "devDependencies": {
+    "@mdx-deck/export": "^2.3.2",
+    "mdx-deck": "^2.3.2"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "pdf": "mdx-deck-export pdf deck.mdx"
+  },
+  "author": "",
+  "license": "ISC"
+}
