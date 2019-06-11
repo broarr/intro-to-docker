@@ -5,12 +5,10 @@
   "main": "deck.mdx",
   "dependencies": {},
   "devDependencies": {
-    "@mdx-deck/export": "^2.3.2",
     "mdx-deck": "^2.3.2"
   },
   "scripts": {
-    "start": "mdx-deck deck.mdx",
-    "pdf": "mdx-deck-export pdf deck.mdx"
+    "start": "mdx-deck deck.mdx"
   },
   "author": "",
   "license": "ISC"
