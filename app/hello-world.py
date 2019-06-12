@@ -3,10 +3,18 @@
 import requests
 
 payload = {'text': 'Hello World!'}
-r = requests.get('https://artii.herokuapp.com/make', params=payload)
+
+r = requests.get(
+    'https://artii.herokuapp.com/make',
+    params=payload)
+
 print(r.text)
 
-import MySQLdb
-
-db = MySQLdb.connect(host='maria', user='root', passwd='root')
-print(db)
+# import MySQLdb
+#
+# db = MySQLdb.connect(
+#     host='maria',
+#     user='root',
+#     passwd='root')
+#
+# print(db)
