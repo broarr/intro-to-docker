@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build --no-html deck.mdx",
+    "build": "mdx-deck build deck.mdx",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
