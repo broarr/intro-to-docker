@@ -5,10 +5,13 @@
   "main": "deck.mdx",
   "dependencies": {},
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "mdx-deck": "^2.3.2"
   },
   "scripts": {
-    "start": "mdx-deck deck.mdx"
+    "start": "mdx-deck deck.mdx",
+     "build": "mdx-deck build --no-html deck.mdx",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC"
